@@ -8,6 +8,7 @@ How to use:
 6. Change the UUID Key to "COMMERCIAL"
 7. Run the program again and it should correctly load.
 8. Press P to run
+9. You may need to press O to reload if the tooltips arent correctly positioned to the right of the roblox screen.
 
 
 Virustotal scan of the .exe program:
