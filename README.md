@@ -13,3 +13,7 @@ How to use:
 
 Virustotal scan of the .exe program:
 https://www.virustotal.com/gui/file/95c85ecbf20e9035d103504d50abf22dcff919a7738696a31ffa52eb6e3bf10d?nocache=1
+
+
+This Macro is capable of auto fishing. You can leave the macro running whilst AFK and it will continue to shake and catch for you.
+This Macro has a 98% catch rate. That is 2 fish lost per 100 fish caught.
