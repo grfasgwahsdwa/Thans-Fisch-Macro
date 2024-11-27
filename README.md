@@ -2,11 +2,13 @@ This Macro is capable of auto fishing on the ROBLOX game "Fisch". You can leave 
 This Macro has a 98% catch rate. That is 2 fish lost per 100 fish caught.
 
 ====================================================
+
 DOWNLOADS:
 
 You may download either the .zip file or the .ahk file. Either will work fine.
 
 ====================================================
+
 How to use: (.ahk file)
 
 Ensure that you have AutoHotKey v1.1 installed.
@@ -24,6 +26,7 @@ Ensure that you have AutoHotKey v1.1 installed.
 [Virustotal scan of the .ahk program](https://www.virustotal.com/gui/file/c041cb7ad42291cd0d8082690c206fe3486f5b7854edecfd8ac8f39016d17fde?nocache=1)
 
 ====================================================
+
 How to use: (.exe file)
 
 Ensure that you have AutoHotKey v1.1 installed.
