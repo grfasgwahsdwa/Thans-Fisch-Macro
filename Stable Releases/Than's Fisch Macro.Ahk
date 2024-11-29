@@ -115,7 +115,7 @@ $p::
 		Msgbox Roblox need to be opened
 		ExitApp
 	}
-	tooltip, Made By Thansar25, %TooltipX%, %Tooltip1%, 1
+	tooltip, Made By thansar62, %TooltipX%, %Tooltip1%, 1
 	tooltip, Current Task: Waiting..., %TooltipX%, %Tooltip2%, 2
 	tooltip, Press "O" to Reload, %TooltipX%, %Tooltip4%, 4
 	tooltip, Press "M" to Exit, %TooltipX%, %Tooltip5%, 5
