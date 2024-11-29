@@ -1,6 +1,8 @@
 This Macro is capable of auto fishing on the ROBLOX game "Fisch". You can leave the macro running whilst AFK and it will continue to shake and catch for you.
 This Macro has a 98% catch rate. That is 2 fish lost per 100 fish caught.
 
+Discord For Support: https://discord.gg/bpEGPyH55Q
+
 ====================================================
 
 DOWNLOADS:
