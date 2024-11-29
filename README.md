@@ -11,6 +11,9 @@ You can download either the stable or experimental releases. Click into the fold
 Stable releases are confirmed to work properly.
 Experimental releases can be either better or worse than the stable versions, adding new features.
 
+To download the file, click the .ahk file you want to download and press ctrl + shift + S.
+Alternatively, you can copy the entire content of the file and create your own .ahk file and paste it there.
+
 ====================================================
 
 How to use: (.ahk file)
