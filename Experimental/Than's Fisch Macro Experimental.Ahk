@@ -7,6 +7,7 @@ clickholdtime := 50
 valreducedholdtime := 20
 sleepTime := 15
 shaketimeout := 30
+navigationKey := "\"
 kp := 1.0
 ki := 0.1
 kd := 0.025
@@ -24,6 +25,7 @@ If !FileExist("Settings.ini") {
 	IniWrite, %valreducedholdtime%, Settings.ini, Fisch, ValReducedHoldTime
 	IniWrite, %sleepTime%, Settings.ini, Fisch, sleeptime
 	IniWrite, %shaketimeout%, Settings.ini, Fisch, shakeTimeout
+	IniWrite, %navigationKey%, Settings.ini, Fisch, NavigationKey
 	IniWrite, %kp%, Settings.ini, PID, Proportional
 	IniWrite, %ki%, Settings.ini, PID, Integral
 	IniWrite, %kd%, Settings.ini, PID, Derivative
@@ -53,6 +55,11 @@ If (shakeTimeout = "ERROR") {
 	IniWrite, %shaketimeout%, Settings.ini, Fisch, shakeTimeout
 	shakeTimeout := shaketimeout
 }
+IniRead, NavigationKey, Settings.ini, Fisch, NavigationKey
+If (NavigationKey = "ERROR") {
+	IniWrite, %navigationKey%, Settings.ini, Fisch, NavigationKey
+	NavigationKey := navigationKey
+}
 IniRead, Kp, Settings.ini, PID, Proportional
 If (Kp = "ERROR") {
 	IniWrite, %kp%, Settings.ini, PID, Proportional
@@ -71,6 +78,7 @@ If (Kd = "ERROR") {
 
 global RodControl := Control
 global ShakeTimeout := shakeTimeout
+global NavigationKey := NavigationKey
 global Kp := Kp
 global Ki := Ki
 global Kd := Kd
@@ -360,7 +368,7 @@ cast() {
 	Click, Up, 100, 400
 	tooltip, Current Task: Waiting for shake, %TooltipX%, %Tooltip2%, 2
 	Sleep 1000
-	Send \
+	Send %NavigationKey%
 	Return True
 }
 
@@ -408,7 +416,7 @@ checkCameraMode() {
 	tooltip, Current Task: Checking Camera Mode, %TooltipX%, %Tooltip2%, 2
 	PixelGetColor, color, 779, 67
 	if(color = "0xedeae8") {
-		Send \
+		Send %NavigationKey%
 		Sleep 150
 		Send {right}
 		Sleep 150
@@ -420,7 +428,7 @@ checkCameraMode() {
 		Sleep 150
 		Send {enter}
 		Sleep 150
-		Send \
+		Send %NavigationKey%
 		Sleep 500
 		checkCameraMode()
 	} else {
