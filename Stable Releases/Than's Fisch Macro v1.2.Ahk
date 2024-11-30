@@ -2,7 +2,7 @@
 
 ; ==============================================================
 ; SETTINGS
-ControlRod := 0.15
+ControlRod := 0
 clickholdtime := 50
 valreducedholdtime := 20
 sleepTime := 15
